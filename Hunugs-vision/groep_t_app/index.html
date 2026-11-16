@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groep T Study OS — Obsidian Companion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Header -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-badge">GT</div>
+        <div>
+          <h1>Groep T Study OS <span class="pill pill-purple">Obsidian Live Sync</span></h1>
+          <p class="subtitle" id="header-meta">Loading vault telemetry...</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <div class="mini-timer" id="mini-timer" title="Active Focus Timer">
+          <span class="dot" id="timer-dot"></span>
+          <span id="mini-timer-display">25:00</span>
+          <button class="btn btn-xs btn-ghost" id="mini-timer-toggle">Start</button>
+        </div>
+        <button class="btn btn-secondary" id="btn-snapshot" title="Write 07_Study_Analytics_Snapshot.md into Obsidian">
+          📝 Sync Obsidian Snapshot
+        </button>
+        <button class="btn btn-ghost" id="btn-refresh" title="Reload directly from Markdown files">
+          🔄 Reload Vault
+        </button>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="overview">📊 Overview &amp; Heatmaps</button>
+      <button class="tab" data-tab="logger">⏱️ Timer &amp; Study Logger</button>
+      <button class="tab" data-tab="units">✅ 270 Study Units</button>
+      <button class="tab" data-tab="simulator">🎯 Exams &amp; 90% ECTS</button>
+      <button class="tab" data-tab="data">🗂️ JSON / CSV &amp; Logs</button>
+    </nav>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- TAB 1: OVERVIEW & ANALYTICS -->
+    <section id="tab-overview" class="tab-panel active">
+      <div class="kpi-grid" id="kpi-grid"></div>
+
+      <div class="card heatmap-card">
+        <div class="card-header">
+          <div>
+            <h2>🟩 Semester 1 Consistency Heatmap (<span id="heatmap-range-label">Oct 2026 – Jan 2027</span>)</h2>
+            <p class="muted">Hover any day to inspect logged hours, focus score, and exam milestones.</p>
+          </div>
+          <div class="legend">
+            <span>0h</span>
+            <span class="lg-box lvl-0"></span>
+            <span class="lg-box lvl-1"></span>
+            <span class="lg-box lvl-2"></span>
+            <span class="lg-box lvl-3"></span>
+            <span class="lg-box lvl-4"></span>
+            <span>6h+ Target</span>
+          </div>
+        </div>
+        <div id="heatmap-container" class="chart-wrap"></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>📊 Daily Study Hours by Course</h2>
+              <p class="muted">Stacked hours vs. 6.0h/day catch-up sprint target</p>
+            </div>
+            <select id="chart-days-range" class="select-sm">
+              <option value="auto" selected>All Logged + Last 30d (Auto)</option>
+              <option value="14">Last 14 days</option>
+              <option value="30">Last 30 days</option>
+              <option value="60">Last 60 days</option>
+              <option value="semester">Full Semester (Oct–Jan)</option>
+            </select>
+          </div>
+          <div id="daily-bar-chart" class="chart-wrap"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>🍩 Hours Distribution &amp; Focus Trend</h2>
+              <p class="muted">Share of studied hours across the 7 courses + focus score</p>
+            </div>
+          </div>
+          <div class="donut-split">
+            <div id="donut-chart"></div>
+            <div id="donut-legend" class="course-legend"></div>
+          </div>
+          <div class="divider"></div>
+          <h3 class="subhead">🧠 Focus Score Trend (1–10)</h3>
+          <div id="focus-line-chart" class="chart-wrap"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2>📚 Live Course Progress (Synced with Obsidian Properties)</h2>
+            <p class="muted">Completion % across all 270 study units + estimated hours left</p>
+          </div>
+        </div>
+        <div id="course-progress-bars" class="course-bars"></div>
+      </div>
+    </section>
+
+    <!-- TAB 2: TIMER & STUDY LOGGER -->
+    <section id="tab-logger" class="tab-panel">
+      <div class="grid-2">
+        <!-- Live Focus Timer -->
+        <div class="card timer-studio">
+          <div class="card-header">
+            <h2>⏳ Deep Work &amp; Pomodoro Studio</h2>
+            <div class="mode-pills">
+              <button class="pill-btn active" data-mode="pomo25">25m Pomo</button>
+              <button class="pill-btn" data-mode="pomo50">50m Deep</button>
+              <button class="pill-btn" data-mode="pomo90">90m Block</button>
+              <button class="pill-btn" data-mode="stopwatch">Stopwatch</button>
+            </div>
+          </div>
+
+          <div class="timer-ring-wrap">
+            <svg class="timer-ring" viewBox="0 0 220 220">
+              <circle cx="110" cy="110" r="96" class="ring-bg" />
+              <circle cx="110" cy="110" r="96" class="ring-fg" id="timer-ring-fg" />
+            </svg>
+            <div class="timer-center">
+              <div class="timer-clock" id="timer-display">25:00</div>
+              <div class="timer-sub" id="timer-status-text">Ready to focus</div>
+            </div>
+          </div>
+
+          <div class="timer-controls">
+            <button class="btn btn-primary" id="btn-timer-start">▶ Start Focus</button>
+            <button class="btn btn-secondary" id="btn-timer-pause">⏸ Pause</button>
+            <button class="btn btn-ghost" id="btn-timer-reset">↺ Reset</button>
+            <button class="btn btn-emerald" id="btn-timer-send-to-log">📥 Copy Elapsed to Logger</button>
+          </div>
+          <p class="muted center-text">Timer state persists automatically in browser storage even if you switch tabs or reload.</p>
+        </div>
+
+        <!-- Obsidian Study Session Logger Form -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>✍️ Log Study Session Directly to Obsidian</h2>
+              <p class="muted">Updates YAML `hrs_*`, `study_hours_total`, appends Markdown row, and exports JSON/CSV.</p>
+            </div>
+          </div>
+
+          <form id="log-session-form" class="form-grid">
+            <label>
+              <span>Date</span>
+              <input type="date" id="log-date" required />
+            </label>
+
+            <label>
+              <span>Write Target in Vault</span>
+              <select id="log-target">
+                <option value="daily_journal">Daily_Journal/YYYY-MM-DD.md (Recommended)</option>
+                <option value="study_log">Groep T/Study_Logs/YYYY-MM-DD.md</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Course (7 Semester-1 Courses)</span>
+              <select id="log-course" required></select>
+            </label>
+
+            <label>
+              <span>Duration (hours — e.g. 1.5 = 90m)</span>
+              <input type="number" id="log-hours" min="0.05" max="16" step="0.05" value="1.5" required />
+            </label>
+
+            <label class="span-2">
+              <span>Linked Study Unit (Optional)</span>
+              <select id="log-unit">
+                <option value="">— General Course Study —</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Focus Score (1–10)</span>
+              <input type="number" id="log-focus" min="1" max="10" value="8" />
+            </label>
+
+            <label>
+              <span>Pomodoros Completed</span>
+              <input type="number" id="log-pomos" min="0" max="24" value="2" />
+            </label>
+
+            <label class="span-2">
+              <span>Time Block / Session Notes &amp; Weak Points</span>
+              <textarea id="log-notes" rows="3" placeholder="e.g. Solved Chapter 2 exercises, review VLS reaction forces..."></textarea>
+            </label>
+
+            <label class="checkbox-inline span-2">
+              <input type="checkbox" id="log-mark-done" />
+              <span>Also mark linked Study Unit as <strong>Completed (✅ done)</strong> <span class="muted">(unchecked = sets unit 🟡 in-progress &amp; deducts hours left)</span></span>
+            </label>
+
+            <div class="span-2 form-actions">
+              <button type="submit" class="btn btn-primary btn-lg">💾 Save Session &amp; Sync Obsidian</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>🕒 Recent Telemetry Sessions</h2>
+          <span class="muted">Stored in <code>Groep T/study_telemetry.json</code></span>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table" id="recent-sessions-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Course</th>
+                <th>Hours</th>
+                <th>Focus</th>
+                <th>Study Unit</th>
+                <th>Notes</th>
+                <th>Obsidian File</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: 270 STUDY UNITS -->
+    <section id="tab-units" class="tab-panel">
+      <div class="card">
+        <div class="filters-bar">
+          <input type="search" id="unit-search" placeholder="Search 270 study units (title, path, topic)..." />
+          <select id="unit-filter-course"><option value="">All Courses (7)</option></select>
+          <select id="unit-filter-type">
+            <option value="">All Types</option>
+            <option value="theory">Theory</option>
+            <option value="kennisclip">Kennisclip</option>
+            <option value="oefensessie">Oefensessie</option>
+            <option value="qa">Q&amp;A</option>
+            <option value="bewijs">Bewijs</option>
+            <option value="labo">Labo</option>
+            <option value="permanente-evaluatie">Perm. Evaluatie</option>
+            <option value="mock-exam">Mock Exam</option>
+          </select>
+          <select id="unit-filter-status">
+            <option value="">All Statuses</option>
+            <option value="todo">🔴 Todo</option>
+            <option value="in-progress">🟡 In Progress</option>
+            <option value="done">🟢 Done</option>
+          </select>
+          <select id="unit-filter-priority">
+            <option value="">All Priorities</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+        <div class="units-summary-line" id="units-count-label">Showing 0 units</div>
+
+        <div class="table-wrap units-table-wrap">
+          <table class="data-table" id="units-table">
+            <thead>
+              <tr>
+                <th>Done</th>
+                <th>Course</th>
+                <th>Unit Title</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Priority</th>
+                <th>Est. (h)</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: EXAMS & 90% ECTS SIMULATOR -->
+    <section id="tab-simulator" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>🎓 90% Pass Goal Simulator (Target: &ge; 27 / 30 ECTS)</h2>
+              <p class="muted">Adjust expected exam scores (/20) to verify your Semester 1 pass safety.</p>
+            </div>
+            <div id="ects-sim-badge" class="ects-badge">30 / 30 ECTS (100%)</div>
+          </div>
+          <div id="ects-simulator-list" class="sim-list"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>🚨 Urgent Labos &amp; Permanente Evaluaties</h2>
+              <p class="muted">Mandatory practicals &amp; pre-exam deadlines synced from your vault</p>
+            </div>
+          </div>
+          <div id="labs-checklist-list" class="labs-list"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>📅 Official Exam &amp; Evaluation Timeline (Dec 2026 – Jan 2027)</h2>
+        </div>
+        <div id="exam-timeline-cards" class="exam-cards"></div>
+      </div>
+    </section>
+
+    <!-- TAB 5: JSON / CSV & OBSIDIAN DATA EXPLORER -->
+    <section id="tab-data" class="tab-panel">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2>📦 Structured Data Exports (JSON, CSV &amp; Obsidian Markdown)</h2>
+            <p class="muted">Every update in Obsidian or this app automatically syncs clean JSON and CSV datasets.</p>
+          </div>
+          <div class="export-btns">
+            <a class="btn btn-primary" href="/api/export/csv?type=logs">⬇ Download Study Logs CSV</a>
+            <a class="btn btn-secondary" href="/api/export/csv?type=units">⬇ Download 270 Units CSV</a>
+            <a class="btn btn-ghost" href="/api/export/json">⬇ Download Telemetry JSON</a>
+          </div>
+        </div>
+        <div class="file-pills" id="data-file-paths"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>📆 Daily Aggregated Logs (Read from <code>Daily_Journal/</code> &amp; <code>Study_Logs/</code>)</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table" id="daily-logs-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Total (h)</th>
+                <th>CAD</th>
+                <th>Dyn</th>
+                <th>CD</th>
+                <th>Wisk</th>
+                <th>Chem</th>
+                <th>Eth</th>
+                <th>SGDM</th>
+                <th>Focus</th>
+                <th>Sources</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Slide-over Note Viewer / Editor Drawer -->
+  <div id="note-drawer" class="drawer hidden">
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div>
+          <h3 id="drawer-title">Note Preview</h3>
+          <p class="muted" id="drawer-path"></p>
+        </div>
+        <div class="drawer-actions">
+          <a id="drawer-obsidian-link" href="#" class="btn btn-sm btn-secondary">🟣 Open in Obsidian</a>
+          <button id="drawer-close" class="btn btn-sm btn-ghost">✕</button>
+        </div>
+      </div>
+      <pre id="drawer-content" class="drawer-content"></pre>
+      <div class="drawer-footer">
+        <input type="text" id="drawer-append-input" placeholder="Append quick study note / weak point directly to this .md file..." />
+        <button id="drawer-append-btn" class="btn btn-primary">➕ Append to Note</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating SVG Tooltip -->
+  <div id="chart-tooltip" class="chart-tooltip hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "cmd-center",
+      "type": "file",
+      "file": "Groep T/00_Groep_T_Command_Center.md",
+      "x": -180,
+      "y": -320,
+      "width": 440,
+      "height": 260,
+      "color": "6"
+    },
+    {
+      "id": "sprint-plan",
+      "type": "file",
+      "file": "Groep T/01_30_Day_Catchup_Sprint_Plan.md",
+      "x": -740,
+      "y": -320,
+      "width": 420,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "exam-sched",
+      "type": "file",
+      "file": "Groep T/exam_schedule.md",
+      "x": 400,
+      "y": -320,
+      "width": 420,
+      "height": 240,
+      "color": "2"
+    },
+    {
+      "id": "checklists",
+      "type": "file",
+      "file": "Groep T/02_Master_Course_Checklists.md",
+      "x": -740,
+      "y": 0,
+      "width": 420,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "study-hours",
+      "type": "file",
+      "file": "Groep T/03_Daily_Study_Hours_Tracker.md",
+      "x": -180,
+      "y": 0,
+      "width": 440,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "labs-hub",
+      "type": "file",
+      "file": "Groep T/04_Labos_and_Permanente_Evaluatie_Hub.md",
+      "x": 400,
+      "y": 0,
+      "width": 420,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "course-cad",
+      "type": "file",
+      "file": "Groep T/Spatial_Insight_and_CAD_Vault/00 - MOC & Dashboards/Index.md",
+      "x": -1050,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "course-dyn",
+      "type": "file",
+      "file": "Groep T/Dynamica_en_Energie_/00_Meta/Index.md",
+      "x": -710,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "course-cd",
+      "type": "file",
+      "file": "Groep T/Computationeel_Denken/Index.md",
+      "x": -370,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "course-wis",
+      "type": "file",
+      "file": "Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/00 - MOC/Index.md",
+      "x": -30,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "course-chem",
+      "type": "file",
+      "file": "Groep T/Chemie/00 - Meta/Index.md",
+      "x": 310,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "course-eth",
+      "type": "file",
+      "file": "Groep T/Ethiek-/00_Overview/00_Course_Index.md",
+      "x": 650,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "course-sgdm",
+      "type": "file",
+      "file": "Groep T/SGDM/00_Overview_Dashboard.md",
+      "x": 990,
+      "y": 340,
+      "width": 300,
+      "height": 180,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "cmd-center", "fromSide": "left", "toNode": "sprint-plan", "toSide": "right" },
+    { "id": "e2", "fromNode": "cmd-center", "fromSide": "right", "toNode": "exam-sched", "toSide": "left" },
+    { "id": "e3", "fromNode": "cmd-center", "fromSide": "bottom", "toNode": "study-hours", "toSide": "top" },
+    { "id": "e4", "fromNode": "cmd-center", "fromSide": "bottom", "toNode": "checklists", "toSide": "top" },
+    { "id": "e5", "fromNode": "cmd-center", "fromSide": "bottom", "toNode": "labs-hub", "toSide": "top" },
+    { "id": "e6", "fromNode": "checklists", "fromSide": "bottom", "toNode": "course-cad", "toSide": "top" },
+    { "id": "e7", "fromNode": "checklists", "fromSide": "bottom", "toNode": "course-dyn", "toSide": "top" },
+    { "id": "e8", "fromNode": "study-hours", "fromSide": "bottom", "toNode": "course-cd", "toSide": "top" },
+    { "id": "e9", "fromNode": "study-hours", "fromSide": "bottom", "toNode": "course-wis", "toSide": "top" },
+    { "id": "e10", "fromNode": "labs-hub", "fromSide": "bottom", "toNode": "course-chem", "toSide": "top" },
+    { "id": "e11", "fromNode": "labs-hub", "fromSide": "bottom", "toNode": "course-eth", "toSide": "top" },
+    { "id": "e12", "fromNode": "labs-hub", "fromSide": "bottom", "toNode": "course-sgdm", "toSide": "top" }
+  ]
+}

@@ -1,0 +1,97 @@
+# Groep T Daily Studied Hours Dashboard (Obsidian Bases)
+# Reads from Study_Logs/ and Daily_Journal/ notes with study_hours_total property.
+
+filters:
+  or:
+    - file.hasTag("study-log")
+    - file.hasProperty("study_hours_total")
+
+formulas:
+  logDate: 'if(date, date(date).format("YYYY-MM-DD"), file.basename)'
+  logWeek: 'if(date, date(date).format("YYYY-[W]WW"), "Unknown")'
+  subjectSum: 'if(hrs_dynamica, hrs_dynamica, 0) + if(hrs_comp_denken, hrs_comp_denken, 0) + if(hrs_wiskunde, hrs_wiskunde, 0) + if(hrs_chemie, hrs_chemie, 0) + if(hrs_ethiek, hrs_ethiek, 0) + if(hrs_sgdm, hrs_sgdm, 0) + if(hrs_cad, hrs_cad, 0)'
+  totalHours: 'if(study_hours_total && study_hours_total > 0, study_hours_total, formula.subjectSum)'
+  targetMet: 'if(formula.totalHours >= 6, "✅ 6h+ Target", if(formula.totalHours >= 4, "🟡 4h+", if(formula.totalHours > 0, "🟠 <4h", "🔴 0h")))'
+
+properties:
+  formula.logDate:
+    displayName: "Date"
+  formula.logWeek:
+    displayName: "Week"
+  formula.totalHours:
+    displayName: "Total (h)"
+  formula.targetMet:
+    displayName: "Daily Target"
+  hrs_dynamica:
+    displayName: "Dynamica"
+  hrs_comp_denken:
+    displayName: "Comp. Denken"
+  hrs_wiskunde:
+    displayName: "Wiskunde"
+  hrs_chemie:
+    displayName: "Chemie"
+  hrs_ethiek:
+    displayName: "Ond. & Ethiek"
+  hrs_sgdm:
+    displayName: "SGDM"
+  hrs_cad:
+    displayName: "CAD / IB1"
+  study_focus_score:
+    displayName: "Focus (1-10)"
+
+views:
+  - type: table
+    name: "Daily Study Hours"
+    order:
+      - formula.logDate
+      - formula.totalHours
+      - formula.targetMet
+      - hrs_cad
+      - hrs_dynamica
+      - hrs_comp_denken
+      - hrs_wiskunde
+      - hrs_chemie
+      - hrs_sgdm
+      - hrs_ethiek
+      - study_focus_score
+      - file.name
+    summaries:
+      formula.totalHours: Sum
+      hrs_cad: Sum
+      hrs_dynamica: Sum
+      hrs_comp_denken: Sum
+      hrs_wiskunde: Sum
+      hrs_chemie: Sum
+      hrs_sgdm: Sum
+      hrs_ethiek: Sum
+      study_focus_score: Average
+    sort:
+      - column: formula.logDate
+        direction: DESC
+  - type: table
+    name: "Weekly Totals"
+    groupBy:
+      property: formula.logWeek
+      direction: DESC
+    order:
+      - formula.logDate
+      - formula.totalHours
+      - hrs_cad
+      - hrs_dynamica
+      - hrs_comp_denken
+      - hrs_wiskunde
+      - hrs_chemie
+      - hrs_sgdm
+      - hrs_ethiek
+    summaries:
+      formula.totalHours: Sum
+      hrs_cad: Sum
+      hrs_dynamica: Sum
+      hrs_comp_denken: Sum
+      hrs_wiskunde: Sum
+      hrs_chemie: Sum
+      hrs_sgdm: Sum
+      hrs_ethiek: Sum
+    sort:
+      - column: formula.logDate
+        direction: DESC

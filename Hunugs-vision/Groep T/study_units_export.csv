@@ -1,0 +1,271 @@
+course,unit_type,name,status,completed,est_hours,priority,path
+Chemie (T1ACH1),theory,Chapter 06 - Thermochemie,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 06 - Thermochemie.md
+Chemie (T1ACH1),theory,Chapter 07 - Elektronenstructuur van atomen,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 07 - Elektronenstructuur van atomen.md
+Chemie (T1ACH1),theory,Chapter 08 - Periodieke tabel,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 08 - Periodieke tabel.md
+Chemie (T1ACH1),theory,Chapter 09 - Chemische binding I,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 09 - Chemische binding I.md
+Chemie (T1ACH1),theory,Chapter 10 - Chemische binding II,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 10 - Chemische binding II.md
+Chemie (T1ACH1),theory,Chapter 11 - Intermoleculaire krachten,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 11 - Intermoleculaire krachten.md
+Chemie (T1ACH1),theory,Chapter 12 - Oplossingen,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 12 - Oplossingen.md
+Chemie (T1ACH1),theory,Chapter 13 - Kinetica,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 13 - Kinetica.md
+Chemie (T1ACH1),theory,Chapter 14 - Chemisch evenwicht,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 14 - Chemisch evenwicht.md
+Chemie (T1ACH1),theory,Chapter 15 - Zuren en basen,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 15 - Zuren en basen.md
+Chemie (T1ACH1),theory,Chapter 16 - Zuur-base evenwichten en oplosbaarheid,todo,False,2.5,high,Groep T/Chemie/01 - Chapters/Chapter 16 - Zuur-base evenwichten en oplosbaarheid.md
+Chemie (T1ACH1),qa,Chapter 06 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 06 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 07 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 07 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 08 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 08 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 09 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 09 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 10 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 10 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 11 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 11 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 12 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 12 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 13 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 13 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 14 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 14 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 15 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 15 - Q&A.md
+Chemie (T1ACH1),qa,Chapter 16 - Q&A,todo,False,1.0,medium,Groep T/Chemie/02 - Active Recall/Chapter 16 - Q&A.md
+Chemie (T1ACH1),oefensessie,Oefensessie 1 - Stoichiometrie I,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 1 - Stoichiometrie I.md
+Chemie (T1ACH1),oefensessie,Oefensessie 2 - Stoichiometrie II,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 2 - Stoichiometrie II.md
+Chemie (T1ACH1),oefensessie,Oefensessie 3 - Thermochemie,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 3 - Thermochemie.md
+Chemie (T1ACH1),oefensessie,Oefensessie 4 - Elektronenstructuur,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 4 - Elektronenstructuur.md
+Chemie (T1ACH1),oefensessie,Oefensessie 5 - Binding en IMK,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 5 - Binding en IMK.md
+Chemie (T1ACH1),oefensessie,Oefensessie 6 - Fysische Eigenschappen,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 6 - Fysische Eigenschappen.md
+Chemie (T1ACH1),oefensessie,Oefensessie 7 - Kinetica,todo,False,2.0,high,Groep T/Chemie/03 - Oefensessies/Oefensessie 7 - Kinetica.md
+Chemie (T1ACH1),exam,Examen 12-01-2024,todo,False,2.5,high,Groep T/Chemie/05 - Exam Prep/Past Exams/Examen 12-01-2024.md
+Chemie (T1ACH1),labo,Kennisclips Chemie,todo,False,1.5,high,Groep T/Chemie/06 - Labos/Kennisclips Chemie.md
+Chemie (T1ACH1),labo,Labo 1 Onbekend Metaal,todo,False,3.0,medium,Groep T/Chemie/06 - Labos/Labo 1 Onbekend Metaal.md
+Chemie (T1ACH1),labo,Labo 2 Calorimetrie,todo,False,3.0,high,Groep T/Chemie/06 - Labos/Labo 2 Calorimetrie.md
+Chemie (T1ACH1),labo,Labo 3 Destillatie van Wijn,todo,False,3.0,medium,Groep T/Chemie/06 - Labos/Labo 3 Destillatie van Wijn.md
+Chemie (T1ACH1),labo,Labo 4 Kinetica,todo,False,3.0,medium,Groep T/Chemie/06 - Labos/Labo 4 Kinetica.md
+Chemie (T1ACH1),labo,Labo 5 Intermoleculaire Krachten en zwak zuur gedrag,todo,False,3.0,medium,Groep T/Chemie/06 - Labos/Labo 5 Intermoleculaire Krachten en zwak zuur gedrag.md
+Chemie (T1ACH1),labo,Labo 6 Praktisch labo examen,todo,False,3.0,high,Groep T/Chemie/06 - Labos/Labo 6 Praktisch labo examen.md
+Chemie (T1ACH1),labo,Praktische afspraken Chemie,todo,False,1.0,high,Groep T/Chemie/06 - Labos/Praktische afspraken Chemie.md
+Chemie (T1ACH1),labo,Testen Chemie,todo,False,1.5,high,Groep T/Chemie/06 - Labos/Testen Chemie.md
+Chemie (T1ACH1),theory,Hoofdstuk 1 - Het atoom,todo,False,2.5,high,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 1 - Het atoom.md
+Chemie (T1ACH1),qa,Hoofdstuk 1 - Q&A,todo,False,1.0,medium,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 1 - Q&A.md
+Chemie (T1ACH1),theory,Hoofdstuk 2 - Het molecule,todo,False,2.5,high,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 2 - Het molecule.md
+Chemie (T1ACH1),qa,Hoofdstuk 2 - Q&A,todo,False,1.0,medium,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 2 - Q&A.md
+Chemie (T1ACH1),qa,Hoofdstuk 3 - Q&A,todo,False,1.0,medium,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 3 - Q&A.md
+Chemie (T1ACH1),theory,Hoofdstuk 3 - Soorten verbindingen en naamgeving,todo,False,2.5,high,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 3 - Soorten verbindingen en naamgeving.md
+Chemie (T1ACH1),theory,Hoofdstuk 4 - Gedrag van verbindingen,todo,False,2.5,high,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 4 - Gedrag van verbindingen.md
+Chemie (T1ACH1),qa,Hoofdstuk 4 - Q&A,todo,False,1.0,medium,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 4 - Q&A.md
+Chemie (T1ACH1),theory,Hoofdstuk 5 - Chemische reacties,todo,False,2.5,high,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 5 - Chemische reacties.md
+Chemie (T1ACH1),qa,Hoofdstuk 5 - Q&A,todo,False,1.0,medium,Groep T/Chemie/introductie_cursus_chemie/Hoofdstuk 5 - Q&A.md
+Chemie (T1ACH1),oefensessie,Oefensessie - Overkoepelende Vraagstukken,todo,False,2.0,high,Groep T/Chemie/introductie_cursus_chemie/Oefensessie - Overkoepelende Vraagstukken.md
+Computationeel Denken (T1ACD1),theory,Sessie 1 - Inleiding tot Computationeel Denken,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 1 - Inleiding tot Computationeel Denken.md
+Computationeel Denken (T1ACD1),theory,Sessie 2 - Variabelen en Branching Controlestructuren,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 2 - Variabelen en Branching Controlestructuren.md
+Computationeel Denken (T1ACD1),theory,"Sessie 3 - Functies 1 - Definitie, Aanroep en Parameters",todo,False,2.5,medium,"Groep T/Computationeel_Denken/Chapters/Sessie 3 - Functies 1 - Definitie, Aanroep en Parameters.md"
+Computationeel Denken (T1ACD1),theory,Sessie 4 - Functies 2 - Returnwaarden en Debugger,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 4 - Functies 2 - Returnwaarden en Debugger.md
+Computationeel Denken (T1ACD1),theory,Sessie 5 - For- en While-lussen,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 5 - For- en While-lussen.md
+Computationeel Denken (T1ACD1),theory,Sessie 6 - Lijsten,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 6 - Lijsten.md
+Computationeel Denken (T1ACD1),theory,Sessie 7 - Feedbacktest en Tussentijdse Evaluatie,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 7 - Feedbacktest en Tussentijdse Evaluatie.md
+Computationeel Denken (T1ACD1),theory,Sessie 8 - 2D-lijsten,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 8 - 2D-lijsten.md
+Computationeel Denken (T1ACD1),theory,Sessie 9 - File IO,todo,False,2.5,medium,Groep T/Computationeel_Denken/Chapters/Sessie 9 - File IO.md
+Computationeel Denken (T1ACD1),exam,4_Pagina_Samenvatting_Werkblad,todo,False,2.0,high,Groep T/Computationeel_Denken/Exam/4_Pagina_Samenvatting_Werkblad.md
+Computationeel Denken (T1ACD1),exam,Past Exam - Herexamen Augustus (Mock),todo,False,2.0,medium,Groep T/Computationeel_Denken/Exam/Past Exam - Herexamen Augustus (Mock).md
+Computationeel Denken (T1ACD1),exam,Past Exam 2024 - Semester 1 (Mock),todo,False,2.5,high,Groep T/Computationeel_Denken/Exam/Past Exam 2024 - Semester 1 (Mock).md
+Computationeel Denken (T1ACD1),exam,Past Exam 2025 - Semester 1 (Mock),todo,False,2.5,high,Groep T/Computationeel_Denken/Exam/Past Exam 2025 - Semester 1 (Mock).md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 1,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 1.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 2,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 2.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 3,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 3.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 4,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 4.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 5,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 5.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 6,todo,False,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 6.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 7 - Feedbacktest,done,True,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 7 - Feedbacktest.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 8,todo,False,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 8.md
+Computationeel Denken (T1ACD1),oefensessie,Oefensessie 9,todo,False,2.0,high,Groep T/Computationeel_Denken/Oefensessies/Oefensessie 9.md
+Computationeel Denken (T1ACD1),labo,Practicum_en_Feedbacktest_Tracker,in-progress,False,2.0,high,Groep T/Computationeel_Denken/Practicum_en_Feedbacktest_Tracker.md
+Computationeel Denken (T1ACD1),qa,Sessie 1 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 1 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 2 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 2 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 3 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 3 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 4 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 4 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 5 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 5 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 6 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 6 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 7 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 7 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 8 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 8 - Q&A.md
+Computationeel Denken (T1ACD1),qa,Sessie 9 - Q&A,todo,False,1.0,medium,Groep T/Computationeel_Denken/QA/Sessie 9 - Q&A.md
+Dynamica en energie (T1ADE1),exam,Mock_Exam_Dynamica,todo,False,3.0,high,Groep T/Dynamica_en_Energie_/00_Meta/Mock_Exam_Dynamica.md
+Dynamica en energie (T1ADE1),labo,VLS_FBD_Drill_Sheet,todo,False,3.0,high,Groep T/Dynamica_en_Energie_/00_Meta/VLS_FBD_Drill_Sheet.md
+Dynamica en energie (T1ADE1),theory,Chapter 1 - Constante Versnelling en Cirkelbeweging,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 1 - Constante Versnelling en Cirkelbeweging.md
+Dynamica en energie (T1ADE1),theory,Chapter 2 - Variabele Versnelling,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 2 - Variabele Versnelling.md
+Dynamica en energie (T1ADE1),theory,Chapter 3 - Afhankelijke en Relatieve Beweging,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 3 - Afhankelijke en Relatieve Beweging.md
+Dynamica en energie (T1ADE1),theory,Chapter 4 - Kinetica Newton Rectangulair,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 4 - Kinetica Newton Rectangulair.md
+Dynamica en energie (T1ADE1),theory,Chapter 5 - Kinetica Newton t-n Stelsels,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 5 - Kinetica Newton t-n Stelsels.md
+Dynamica en energie (T1ADE1),theory,Chapter 6 - Arbeid en Energie,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 6 - Arbeid en Energie.md
+Dynamica en energie (T1ADE1),theory,Chapter 7 - Behoud van Energie,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 7 - Behoud van Energie.md
+Dynamica en energie (T1ADE1),theory,Chapter 8 - Lineair Momentum en Stoot,todo,False,2.5,high,Groep T/Dynamica_en_Energie_/01_Theorie/Chapter 8 - Lineair Momentum en Stoot.md
+Dynamica en energie (T1ADE1),qa,Chapter 1 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 1 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 2 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 2 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 3 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 3 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 4 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 4 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 5 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 5 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 6 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 6 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 7 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 7 - Q&A.md
+Dynamica en energie (T1ADE1),qa,Chapter 8 - Q&A,todo,False,1.0,medium,Groep T/Dynamica_en_Energie_/02_Active_Recall/Chapter 8 - Q&A.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 1,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 1.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 10,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 10.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 2,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 2.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 3,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 3.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 4,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 4.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 5,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 5.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 6,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 6.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 7,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 7.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 8,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 8.md
+Dynamica en energie (T1ADE1),oefensessie,Oefensessie 9,todo,False,2.0,high,Groep T/Dynamica_en_Energie_/03_Oefensessies/Oefensessie 9.md
+Onderneming en ethiek (T1AOE1),theory,Module_1_Wat_is_Filosofie_en_Technologie,todo,False,2.5,medium,Groep T/Ethiek-/01_Core_Modules/Module_1_Wat_is_Filosofie_en_Technologie.md
+Onderneming en ethiek (T1AOE1),theory,Module_2_Wat_moet_ik_doen_om_goed_te_doen,todo,False,2.5,medium,Groep T/Ethiek-/01_Core_Modules/Module_2_Wat_moet_ik_doen_om_goed_te_doen.md
+Onderneming en ethiek (T1AOE1),theory,Module_3_Is_Technologie_Waardeneutraal,todo,False,2.5,medium,Groep T/Ethiek-/01_Core_Modules/Module_3_Is_Technologie_Waardeneutraal.md
+Onderneming en ethiek (T1AOE1),theory,Module_4_Is_AI_Disruptieve_Technologie,todo,False,2.5,medium,Groep T/Ethiek-/01_Core_Modules/Module_4_Is_AI_Disruptieve_Technologie.md
+Onderneming en ethiek (T1AOE1),theory,Module_5_Verantwoordelijkheid_en_AI,todo,False,2.5,medium,Groep T/Ethiek-/01_Core_Modules/Module_5_Verantwoordelijkheid_en_AI.md
+Onderneming en ethiek (T1AOE1),qa,02_Argumentatievragen,todo,False,1.0,medium,Groep T/Ethiek-/03_Exam_Preparation/02_Argumentatievragen.md
+Onderneming en ethiek (T1AOE1),qa,03_Begripsvragen,todo,False,1.0,medium,Groep T/Ethiek-/03_Exam_Preparation/03_Begripsvragen.md
+Onderneming en ethiek (T1AOE1),qa,04_Verbandsvragen_&_Casus,todo,False,1.0,medium,Groep T/Ethiek-/03_Exam_Preparation/04_Verbandsvragen_&_Casus.md
+Onderneming en ethiek (T1AOE1),qa,05_Meerkeuzevragen_Bank,todo,False,1.0,medium,Groep T/Ethiek-/03_Exam_Preparation/05_Meerkeuzevragen_Bank.md
+Onderneming en ethiek (T1AOE1),permanente-evaluatie,Dag_met_een_Ingenieur_Opdracht_Tracker,in-progress,False,4.0,high,Groep T/Ethiek-/05_Onderneming/Dag_met_een_Ingenieur_Opdracht_Tracker.md
+Onderneming en ethiek (T1AOE1),theory,Onderneming_01_Ondernemingsvormen_en_Business_Model_Canvas,todo,False,2.0,medium,Groep T/Ethiek-/05_Onderneming/Onderneming_01_Ondernemingsvormen_en_Business_Model_Canvas.md
+Onderneming en ethiek (T1AOE1),theory,Onderneming_02_Strategie_SWOT_en_Stakeholders,todo,False,2.0,medium,Groep T/Ethiek-/05_Onderneming/Onderneming_02_Strategie_SWOT_en_Stakeholders.md
+Onderneming en ethiek (T1AOE1),theory,Onderneming_03_Leiderschap_en_Organisatie,todo,False,2.0,medium,Groep T/Ethiek-/05_Onderneming/Onderneming_03_Leiderschap_en_Organisatie.md
+Onderneming en ethiek (T1AOE1),theory,Onderneming_04_Boekhouden_Balans_Resultatenrekening_MAR,todo,False,3.0,high,Groep T/Ethiek-/05_Onderneming/Onderneming_04_Boekhouden_Balans_Resultatenrekening_MAR.md
+Onderneming en ethiek (T1AOE1),qa,Onderneming_05_Q_en_A_Oefeningen,todo,False,2.0,high,Groep T/Ethiek-/05_Onderneming/Onderneming_05_Q_en_A_Oefeningen.md
+Wiskundige basistechnieken (T1AWB1),theory,"Ch 01 - Getallen, Punten en Vectoren",todo,False,2.5,high,"Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 1 - Analytische Meetkunde/Ch 01 - Getallen, Punten en Vectoren.md"
+Wiskundige basistechnieken (T1AWB1),theory,Ch 02 - Vlakke Meetkunde,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 1 - Analytische Meetkunde/Ch 02 - Vlakke Meetkunde.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 03 - Ruimtemeetkunde,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 1 - Analytische Meetkunde/Ch 03 - Ruimtemeetkunde.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 01 - Complexe Getallen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 01 - Complexe Getallen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 02 - Matrices en Echelonvormen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 02 - Matrices en Echelonvormen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 03 - Vierkante Matrices en Determinanten,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 03 - Vierkante Matrices en Determinanten.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 04 - Lineaire Stelsels,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 04 - Lineaire Stelsels.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 05 - Vectorruimten en Inproductruimten,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 05 - Vectorruimten en Inproductruimten.md
+Wiskundige basistechnieken (T1AWB1),theory,"Ch 06 - Basis, Dimensie en Coördinaten",todo,False,2.5,high,"Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 06 - Basis, Dimensie en Coördinaten.md"
+Wiskundige basistechnieken (T1AWB1),theory,Ch 07 - Beste Benadering en Orthogonale Projecties,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 2 - Lineaire Algebra/Ch 07 - Beste Benadering en Orthogonale Projecties.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 01 - Functies en Continuïteit,todo,False,2.5,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 01 - Functies en Continuïteit.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 02 - Transcendente Functies,todo,False,2.5,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 02 - Transcendente Functies.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 03 - Limieten,todo,False,3.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 03 - Limieten.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 04 - Rijen en Reeksen van Reële Getallen,todo,False,3.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 04 - Rijen en Reeksen van Reële Getallen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 05 - Afgeleiden en Toepassingen,todo,False,3.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 05 - Afgeleiden en Toepassingen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 06 - Onbepaalde Integralen,todo,False,4.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 06 - Onbepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 07 - Bepaalde Integralen,todo,False,3.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 07 - Bepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 08 - Toepassingen van Bepaalde Integralen,todo,False,3.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 08 - Toepassingen van Bepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),theory,Ch 09 - Functiereeksen en Reeksontwikkelingen,todo,False,3.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/01 - Theory/Deel 3 - Analyse/Ch 09 - Functiereeksen en Reeksontwikkelingen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 01 Functies,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 01 Functies.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 02 Transcendente Functies,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 02 Transcendente Functies.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 03 Limieten,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 03 Limieten.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 04 Rijen en Reeksen,todo,False,1.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 04 Rijen en Reeksen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 05 Afgeleiden,todo,False,1.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 05 Afgeleiden.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 06 Onbepaalde Integralen,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 06 Onbepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 07 Bepaalde Integralen,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 07 Bepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 08 Toepassingen Integralen,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 08 Toepassingen Integralen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Analyse Ch 09 Functiereeksen,todo,False,1.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Analyse Ch 09 Functiereeksen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 01 Complexe Getallen,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 01 Complexe Getallen.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 02 Matrices,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 02 Matrices.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 03 Vierkante Matrices,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 03 Vierkante Matrices.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 04 Lineaire Stelsels,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 04 Lineaire Stelsels.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 05 Vectorruimten,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 05 Vectorruimten.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 06 Basis en Dimensie,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 06 Basis en Dimensie.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - LinAlg Ch 07 Beste Benadering,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - LinAlg Ch 07 Beste Benadering.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Meetkunde Ch 01,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Meetkunde Ch 01.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Meetkunde Ch 02,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Meetkunde Ch 02.md
+Wiskundige basistechnieken (T1AWB1),qa,Q&A - Meetkunde Ch 03,todo,False,1.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/02 - Active Recall Q&A/Q&A - Meetkunde Ch 03.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 01 - Functies en Transcendente Functies,todo,False,2.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 01 - Functies en Transcendente Functies.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 02 - Vectoralgebra in R2 en R3,done,True,2.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 02 - Vectoralgebra in R2 en R3.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 03 - Matrices I (Algebraïsche Bewerkingen),todo,False,2.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 03 - Matrices I (Algebraïsche Bewerkingen).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 04 - Vlakke Meetkunde I (Rechten),todo,False,2.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 04 - Vlakke Meetkunde I (Rechten).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 05 - Vlakke Meetkunde II (Kegelsneden en Poolkrommen),todo,False,2.5,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 05 - Vlakke Meetkunde II (Kegelsneden en Poolkrommen).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 06 - Ruimtemeetkunde I,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 06 - Ruimtemeetkunde I.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 07 - Ruimtemeetkunde II,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 07 - Ruimtemeetkunde II.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 08 - Matrices II (Vierkante Matrices),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 08 - Matrices II (Vierkante Matrices).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 09 - Lineaire Stelsels,todo,False,2.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 09 - Lineaire Stelsels.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 10 - Vectorruimten I (Lineaire Combinaties en Deelruimten),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 10 - Vectorruimten I (Lineaire Combinaties en Deelruimten).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 11 - Inproductruimten,todo,False,2.0,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 11 - Inproductruimten.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 12 - Vectorruimten II (Lineaire Afhankelijkheid en Basis),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 12 - Vectorruimten II (Lineaire Afhankelijkheid en Basis).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 13 - Vectorruimten III (Dimensie en Coördinaten),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 13 - Vectorruimten III (Dimensie en Coördinaten).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 14 - Vectorruimten IV (Beste Benadering en Projectie),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 14 - Vectorruimten IV (Beste Benadering en Projectie).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 15 - Limieten,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 15 - Limieten.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 16 - Afgeleiden I,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 16 - Afgeleiden I.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 17 - Afgeleiden II en Toepassingen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 17 - Afgeleiden II en Toepassingen.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 18 - Onbepaalde Integralen I (Substitutie en Partieel),todo,False,2.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 18 - Onbepaalde Integralen I (Substitutie en Partieel).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 19 - Rijen en Reeksen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 19 - Rijen en Reeksen.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 20 - Functiereeksen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 20 - Functiereeksen.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 21 - Onbepaalde Integralen II (Rationale Functies),todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 21 - Onbepaalde Integralen II (Rationale Functies).md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 22 - Goniometrische Substitutie en Bepaalde Integralen,todo,False,2.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 22 - Goniometrische Substitutie en Bepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 23 - Toepassingen van Bepaalde Integralen,todo,False,2.5,medium,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 23 - Toepassingen van Bepaalde Integralen.md
+Wiskundige basistechnieken (T1AWB1),oefensessie,Oefensessie 24 - Complexe Getallen,todo,False,2.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/03 - Exercise Sessions/Oefensessie 24 - Complexe Getallen.md
+Wiskundige basistechnieken (T1AWB1),exam,Mock Exam 1 - Proefexamen Halverwege Semester (Kennismakingsexamen),todo,False,2.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/05 - Exam Preparation/Mock Exam 1 - Proefexamen Halverwege Semester (Kennismakingsexamen).md
+Wiskundige basistechnieken (T1AWB1),exam,"Mock Exam 2 - Volledig Proefexamen Deel 1, 2 en 3",todo,False,3.0,high,"Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/05 - Exam Preparation/Mock Exam 2 - Volledig Proefexamen Deel 1, 2 en 3.md"
+Wiskundige basistechnieken (T1AWB1),exam,Mock Exam 3 - Oplossingen en Zelfevaluatie Rubric,todo,False,1.5,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/05 - Exam Preparation/Mock Exam 3 - Oplossingen en Zelfevaluatie Rubric.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 01 - Hoek tussen Twee Vectoren in R2,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 01 - Hoek tussen Twee Vectoren in R2.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 02 - Afstand tussen Punt en Rechte in R2,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 02 - Afstand tussen Punt en Rechte in R2.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 03 - Cartesiaanse Vergelijking van een Ellips,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 03 - Cartesiaanse Vergelijking van een Ellips.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 04 - Verband Afleidbaarheid en Continuïteit,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 04 - Verband Afleidbaarheid en Continuïteit.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 05 - Ongelijkheid van Cauchy-Schwarz,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 05 - Ongelijkheid van Cauchy-Schwarz.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 06 - Rij-equivalentie met Eenheidsmatrix en Inverse Matrix,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 06 - Rij-equivalentie met Eenheidsmatrix en Inverse Matrix.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 07 - Aantal Oplossingen van een Lineair Stelsel,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 07 - Aantal Oplossingen van een Lineair Stelsel.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 08 - Determinant van Reguliere Matrix en Inverse,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 08 - Determinant van Reguliere Matrix en Inverse.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 09 - Integratie door Substitutie,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 09 - Integratie door Substitutie.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 10 - Partiële Integratie,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 10 - Partiële Integratie.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 11 - Hoofdstelling van de Integraalrekening,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 11 - Hoofdstelling van de Integraalrekening.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 12 - Uniciteit van Lineaire Combinatie in een Basis,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 12 - Uniciteit van Lineaire Combinatie in een Basis.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 13 - Coördinaten tov Orthonormale Basis,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 13 - Coördinaten tov Orthonormale Basis.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 14 - Convergentie van de p-Reeks,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 14 - Convergentie van de p-Reeks.md
+Wiskundige basistechnieken (T1AWB1),bewijs,Bewijs 15 - Taylorveelterm en Afleiding van Coëfficiënten,todo,False,1.0,high,Groep T/Obsidian_Vault_Wiskundige_Basistechnieken/06 - Bewijzen/Bewijs 15 - Taylorveelterm en Afleiding van Coëfficiënten.md
+SGDM (T1ASD1),exam,Exam_Questions_and_Worked_Solutions,todo,False,2.5,high,Groep T/SGDM/03_Exams_and_Strategy/Exam_Questions_and_Worked_Solutions.md
+SGDM (T1ASD1),theory,H01_Circulair_Denken_en_Inleiding,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H01_Circulair_Denken_en_Inleiding.md
+SGDM (T1ASD1),theory,H02_Stijfheid_en_Elasticiteit,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H02_Stijfheid_en_Elasticiteit.md
+SGDM (T1ASD1),theory,H03_Atomen_en_Bindingen,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H03_Atomen_en_Bindingen.md
+SGDM (T1ASD1),theory,H04_Thermische_Expansie,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H04_Thermische_Expansie.md
+SGDM (T1ASD1),theory,H05_Elektrische_en_Thermische_Geleidbaarheid,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H05_Elektrische_en_Thermische_Geleidbaarheid.md
+SGDM (T1ASD1),theory,H06_Orde_en_Chaos,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H06_Orde_en_Chaos.md
+SGDM (T1ASD1),theory,H07_Kristallijne_Structuren_en_Miller_Indices,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H07_Kristallijne_Structuren_en_Miller_Indices.md
+SGDM (T1ASD1),theory,H10_Plasticiteit_en_Trekproef,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H10_Plasticiteit_en_Trekproef.md
+SGDM (T1ASD1),theory,H11_Roosterdefecten_en_Verstevigingsmechanismen,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H11_Roosterdefecten_en_Verstevigingsmechanismen.md
+SGDM (T1ASD1),theory,H13_Diffusie_en_Sinteren,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H13_Diffusie_en_Sinteren.md
+SGDM (T1ASD1),theory,H14_Fasetransformaties_en_Evenwichtsdiagrammen,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H14_Fasetransformaties_en_Evenwichtsdiagrammen.md
+SGDM (T1ASD1),theory,H15_Artificiele_Materialen_en_Composieten,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H15_Artificiele_Materialen_en_Composieten.md
+SGDM (T1ASD1),theory,H16_Breukmechanica_en_Taaiheid,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H16_Breukmechanica_en_Taaiheid.md
+SGDM (T1ASD1),theory,H17_Vermoeiing_en_Dynamische_Belasting,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H17_Vermoeiing_en_Dynamische_Belasting.md
+SGDM (T1ASD1),theory,H18_Tijdsafhankelijk_Gedrag_en_Kruip,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H18_Tijdsafhankelijk_Gedrag_en_Kruip.md
+SGDM (T1ASD1),theory,H20_Corrosie_en_Materiaaldegradatie,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H20_Corrosie_en_Materiaaldegradatie.md
+SGDM (T1ASD1),theory,H21_Materiaalkringlopen_en_Duurzaamheid,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H21_Materiaalkringlopen_en_Duurzaamheid.md
+SGDM (T1ASD1),theory,H22_Materiaalkeuze_en_Ashby_Methodiek,todo,False,2.5,medium,Groep T/SGDM/04_Theory_Notes/H22_Materiaalkeuze_en_Ashby_Methodiek.md
+SGDM (T1ASD1),oefensessie,Sessie_01_Spanning_Rek_Stijfheid,todo,False,2.0,high,Groep T/SGDM/05_Oefenzittingen/Sessie_01_Spanning_Rek_Stijfheid.md
+SGDM (T1ASD1),oefensessie,Sessie_02_Sterkte_Plasticiteit_Hardheid,todo,False,2.0,high,Groep T/SGDM/05_Oefenzittingen/Sessie_02_Sterkte_Plasticiteit_Hardheid.md
+SGDM (T1ASD1),oefensessie,Sessie_03_Diffusie_en_Fasediagrammen,todo,False,2.0,high,Groep T/SGDM/05_Oefenzittingen/Sessie_03_Diffusie_en_Fasediagrammen.md
+SGDM (T1ASD1),oefensessie,Sessie_04_Fasediagrammen_en_Composieten,todo,False,2.0,high,Groep T/SGDM/05_Oefenzittingen/Sessie_04_Fasediagrammen_en_Composieten.md
+SGDM (T1ASD1),oefensessie,Sessie_05_Breukmechanica_Vermoeiing_Kruip,todo,False,2.0,high,Groep T/SGDM/05_Oefenzittingen/Sessie_05_Breukmechanica_Vermoeiing_Kruip.md
+SGDM (T1ASD1),qa,Q_Bank_Breuk_Vermoeiing_Kruip,todo,False,1.0,medium,Groep T/SGDM/06_Practice_Question_Banks/Q_Bank_Breuk_Vermoeiing_Kruip.md
+SGDM (T1ASD1),qa,Q_Bank_Diffusie_en_Fasediagrammen,todo,False,1.0,medium,Groep T/SGDM/06_Practice_Question_Banks/Q_Bank_Diffusie_en_Fasediagrammen.md
+SGDM (T1ASD1),qa,Q_Bank_Elasticiteit_en_Bindingen,todo,False,1.0,medium,Groep T/SGDM/06_Practice_Question_Banks/Q_Bank_Elasticiteit_en_Bindingen.md
+SGDM (T1ASD1),qa,Q_Bank_Kristallen_en_Plasticiteit,todo,False,1.0,medium,Groep T/SGDM/06_Practice_Question_Banks/Q_Bank_Kristallen_en_Plasticiteit.md
+SGDM (T1ASD1),labo,Algemene informatie en introductie sessie SGDM,todo,False,1.5,high,Groep T/SGDM/07_Labos/Algemene informatie en introductie sessie SGDM.md
+SGDM (T1ASD1),labo,BELANGRIJK Mailing na experimenteel labo 1,todo,False,0.5,high,Groep T/SGDM/07_Labos/BELANGRIJK Mailing na experimenteel labo 1.md
+SGDM (T1ASD1),labo,Evaluatie en feedback SGDM,todo,False,0.5,medium,Groep T/SGDM/07_Labos/Evaluatie en feedback SGDM.md
+SGDM (T1ASD1),labo,Instructievideo's Meettoestellen,todo,False,1.0,medium,Groep T/SGDM/07_Labos/Instructievideo's Meettoestellen.md
+SGDM (T1ASD1),labo,Labo verslagen upload zone SGDM,todo,False,0.5,high,Groep T/SGDM/07_Labos/Labo verslagen upload zone SGDM.md
+SGDM (T1ASD1),labo,Labo voorbereiding testen ANS,todo,False,1.5,high,Groep T/SGDM/07_Labos/Labo voorbereiding testen ANS.md
+SGDM (T1ASD1),labo,Laboteksten en Verslagsjablonen SGDM,todo,False,1.5,high,Groep T/SGDM/07_Labos/Laboteksten en Verslagsjablonen SGDM.md
+SGDM (T1ASD1),labo,"Labovaardigheden, foutentheorie en schrijfvaardigheden",todo,False,2.0,high,"Groep T/SGDM/07_Labos/Labovaardigheden, foutentheorie en schrijfvaardigheden.md"
+SGDM (T1ASD1),labo,Volgorde proeven SGDM,todo,False,0.5,medium,Groep T/SGDM/07_Labos/Volgorde proeven SGDM.md
+Ruimtelijk inzicht en CAD (T1AIB1),permanente-evaluatie,Ingenieursbeleving_1_Overview,todo,False,4.0,high,Groep T/Spatial_Insight_and_CAD_Vault/00 - MOC & Dashboards/Ingenieursbeleving_1_Overview.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 01 - Standardized Engineering Drawing,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 01 - Standardized Engineering Drawing.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 02 - Projection Theory,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 02 - Projection Theory.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 03 - Projection of Geometric Elements,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 03 - Projection of Geometric Elements.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 04 - Draw Views,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 04 - Draw Views.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 05 - Tangential and Intersecting Transitions,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 05 - Tangential and Intersecting Transitions.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 06 - Projection Systems,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 06 - Projection Systems.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 07 - Creating a Multiview Drawing,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 07 - Creating a Multiview Drawing.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 08 - Intersecting Features and Bodies,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 08 - Intersecting Features and Bodies.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 09 - Bodies of Revolution and Indication of Basic Shape,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 09 - Bodies of Revolution and Indication of Basic Shape.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 10 - Special Views,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 10 - Special Views.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 11 - Section Views,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 11 - Section Views.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 12 - Elements of a Section View,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 12 - Elements of a Section View.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 13 - Section View Types,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 13 - Section View Types.md
+Ruimtelijk inzicht en CAD (T1AIB1),kennisclip,Clip 14 - Section View Conventions,🔴 Todo,False,0.75,high,Groep T/Spatial_Insight_and_CAD_Vault/01 - Kennisclips (Watch & Note Templates)/Clip 14 - Section View Conventions.md
+Ruimtelijk inzicht en CAD (T1AIB1),theory,Chapter 01 - Inleiding en Standaardisatie (ISO Normen),todo,False,2.5,medium,Groep T/Spatial_Insight_and_CAD_Vault/02 - Chapter Frameworks/Chapter 01 - Inleiding en Standaardisatie (ISO Normen).md
+Ruimtelijk inzicht en CAD (T1AIB1),theory,Chapter 02 - Orthogonale Aanzichten (Multiview Projections),todo,False,2.5,medium,Groep T/Spatial_Insight_and_CAD_Vault/02 - Chapter Frameworks/Chapter 02 - Orthogonale Aanzichten (Multiview Projections).md
+Ruimtelijk inzicht en CAD (T1AIB1),theory,Chapter 03 - Doorsnedeaanzichten (Section Views),todo,False,2.5,medium,Groep T/Spatial_Insight_and_CAD_Vault/02 - Chapter Frameworks/Chapter 03 - Doorsnedeaanzichten (Section Views).md
+Ruimtelijk inzicht en CAD (T1AIB1),qa,Doorsnedeaanzichten - Q&A,todo,False,1.0,medium,Groep T/Spatial_Insight_and_CAD_Vault/03 - Active Recall & QA/Doorsnedeaanzichten - Q&A.md
+Ruimtelijk inzicht en CAD (T1AIB1),qa,ISO Standaarden & Lijnconventies - Q&A,todo,False,1.0,medium,Groep T/Spatial_Insight_and_CAD_Vault/03 - Active Recall & QA/ISO Standaarden & Lijnconventies - Q&A.md
+Ruimtelijk inzicht en CAD (T1AIB1),qa,Orthogonale Aanzichten - Q&A,todo,False,1.0,medium,Groep T/Spatial_Insight_and_CAD_Vault/03 - Active Recall & QA/Orthogonale Aanzichten - Q&A.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 1 - Orthogonale Aanzichten Deel 1,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 1 - Orthogonale Aanzichten Deel 1.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 2 - Orthogonale Aanzichten Deel 2,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 2 - Orthogonale Aanzichten Deel 2.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 3 - Doorsnedeaanzichten Basis,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 3 - Doorsnedeaanzichten Basis.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 4 - Doorsnedeaanzichten Gevorderd,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 4 - Doorsnedeaanzichten Gevorderd.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 5 - Oefentest Doorsnedeaanzicht,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 5 - Oefentest Doorsnedeaanzicht.md
+Ruimtelijk inzicht en CAD (T1AIB1),oefensessie,Oefensessie 6 - Permanente Evaluatie,todo,False,2.0,high,Groep T/Spatial_Insight_and_CAD_Vault/04 - Oefensessies (Exercise Sessions)/Oefensessie 6 - Permanente Evaluatie.md
+Ruimtelijk inzicht en CAD (T1AIB1),exam,Mock Test Section View 2026,todo,False,2.5,high,Groep T/Spatial_Insight_and_CAD_Vault/06 - Exam Preparation/Mock Test Section View 2026.md

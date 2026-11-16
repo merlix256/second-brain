@@ -1,0 +1,131 @@
+filters:
+  and:
+    - file.hasTag("study-unit")
+formulas:
+  isDone: if(completed == true || status == "done", 1, 0)
+  hoursLeft: if(completed == true || status == "done", 0, if(est_hours, est_hours, 1.5))
+  statusIcon: if(completed == true || status == "done", "🟢 Done", if(status == "in-progress", "🟡 In Progress", "🔴 Todo"))
+  priorityRank: if(priority == "high", 1, if(priority == "medium", 2, 3))
+properties:
+  course:
+    displayName: Course
+  unit_type:
+    displayName: Type
+  formula.statusIcon:
+    displayName: Status
+  completed:
+    displayName: Done?
+  est_hours:
+    displayName: Est. Hours
+  formula.hoursLeft:
+    displayName: Hours Left
+  priority:
+    displayName: Priority
+views:
+  - type: table
+    name: All Courses Summary
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - unit_type
+      - formula.statusIcon
+      - completed
+      - est_hours
+      - formula.hoursLeft
+      - priority
+    sort:
+      - property: formula.priorityRank
+        direction: ASC
+    summaries:
+      formula.isDone: Sum
+      est_hours: Sum
+      formula.hoursLeft: Sum
+  - type: table
+    name: Remaining (Todo)
+    filters:
+      and:
+        - completed != true
+        - status != "done"
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - unit_type
+      - priority
+      - formula.hoursLeft
+      - completed
+    sort:
+      - property: formula.priorityRank
+        direction: ASC
+    summaries:
+      formula.hoursLeft: Sum
+  - type: table
+    name: Labs & Mandatory Evals
+    filters:
+      or:
+        - unit_type == "labo"
+        - unit_type == "permanente-evaluatie"
+    order:
+      - course
+      - file.name
+      - formula.statusIcon
+      - completed
+      - formula.hoursLeft
+    sort:
+      - property: course
+        direction: ASC
+    summaries:
+      formula.isDone: Sum
+      formula.hoursLeft: Sum
+  - type: table
+    name: Oefensessies
+    filters:
+      and:
+        - unit_type == "oefensessie"
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - formula.statusIcon
+      - completed
+      - formula.hoursLeft
+    summaries:
+      formula.isDone: Sum
+      formula.hoursLeft: Sum
+  - type: table
+    name: Theory & Kennisclips
+    filters:
+      or:
+        - unit_type == "theory"
+        - unit_type == "kennisclip"
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - unit_type
+      - formula.statusIcon
+      - completed
+      - formula.hoursLeft
+    summaries:
+      formula.isDone: Sum
+      formula.hoursLeft: Sum
+  - type: table
+    name: Completed
+    filters:
+      or:
+        - completed == true
+        - status == "done"
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - unit_type
+      - est_hours
+    summaries:
+      est_hours: Sum

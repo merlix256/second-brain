@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Daily_Journal  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#3d-printing  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "line:(hadith)",
+      "color": {
+        "a": 1,
+        "rgb": 1739007
+      }
+    },
+    {
+      "query": "path:\"Groep T\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 2.8,
+  "nodeSizeMultiplier": 1.69829774672833,
+  "lineSizeMultiplier": 0.1,
+  "collapse-forces": true,
+  "centerStrength": 0.247604938271605,
+  "repelStrength": 9.10617283950617,
+  "linkStrength": 0.44641975308642,
+  "linkDistance": 131,
+  "scale": 0.13873223932666073,
+  "close": false
+}

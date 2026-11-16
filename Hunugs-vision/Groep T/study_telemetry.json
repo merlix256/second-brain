@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-15T02:44:37",
+  "sessions": [
+    {
+      "id": "2026-10-06-1",
+      "timestamp": "2026-11-15T02:30:58",
+      "date": "2026-10-06",
+      "course_id": "comp_denken",
+      "course": "Computationeel Denken (T1ACD1)",
+      "course_short": "Computationeel Denken",
+      "hours": 2.0,
+      "focus_score": 8,
+      "pomodoros": 2,
+      "unit_path": "Groep T/Computationeel_Denken/Oefensessies/Oefensessie 2.md",
+      "unit_name": "Oefensessie 2",
+      "notes": "",
+      "obsidian_file": "Daily_Journal/2026-10-06.md"
+    },
+    {
+      "id": "2026-10-13-2",
+      "timestamp": "2026-11-15T02:31:22",
+      "date": "2026-10-13",
+      "course_id": "comp_denken",
+      "course": "Computationeel Denken (T1ACD1)",
+      "course_short": "Computationeel Denken",
+      "hours": 2.0,
+      "focus_score": 8,
+      "pomodoros": 2,
+      "unit_path": "Groep T/Computationeel_Denken/Oefensessies/Oefensessie 3.md",
+      "unit_name": "Oefensessie 3",
+      "notes": "",
+      "obsidian_file": "Daily_Journal/2026-10-13.md"
+    },
+    {
+      "id": "2026-10-06-3",
+      "timestamp": "2026-11-15T02:44:37",
+      "date": "2026-10-06",
+      "course_id": "cad",
+      "course": "Ruimtelijk inzicht en CAD (T1AIB1)",
+      "course_short": "Ruimtelijk Inzicht & CAD",
+      "hours": 4.0,
+      "focus_score": 8,
+      "pomodoros": 2,
+      "unit_path": "",
+      "unit_name": "",
+      "notes": "",
+      "obsidian_file": "Daily_Journal/2026-10-06.md"
+    }
+  ]
+}
